@@ -320,7 +320,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                     "json?location=" + lat + "," + lng +
                     "&radius=1000&sensor=true" +
                     "&types=mosque" +
-                    "&key=AIzaSyAvJxJfgHsdEm9ZeybUvVOb1Ws7VyLYLaM";//ADD KEY
+                    "&key=APIKEY";//ADD KEY
 
             if(isNetworkAvailable()) {
                 //execute query
